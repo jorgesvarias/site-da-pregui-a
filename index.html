@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Site Simples com HTML e CSS</title>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <a href="index.html">Jorge</a>
+        </div>
+        <ul>
+            <li><a href="#" data-target="home">Home</a></li>
+            <li><a href="#" data-target="sobre">Sobre</a></li>
+            <li><a href="#" data-target="precos">Preços</a></li>
+            <li><a href="#" data-target="servicos">Serviços</a></li>
+            <li><a href="#" data-target="contacto">Contacto</a></li>
+        </ul>
+    </nav>
+    
+    <section class="banner">
+        <div class="texto">
+           <h1 class="titulo">Criar um site incrível somente</h1>
+           <h2 class="sub_titulo">usando HTML & CSS puro</h2>
+           <div class="botoes">
+               <button class="n-overlay">Saiba Mais</button>
+               <button class="overlay">Inscrever</button>
+           </div>
+        </div>
+    </section>
+
+    <div class="content">
+        <div id="home" class="tab active">
+            <h2>Bem-vindo à nossa página inicial!</h2>
+            <p>Aqui você encontra as últimas novidades.</p>
+        </div>
+        <div id="sobre" class="tab">
+            <h2>Sobre Nós</h2>
+            <p>Somos uma empresa dedicada a criar sites incríveis.</p>
+        </div>
+        <div id="precos" class="tab">
+            <h2>Preços</h2>
+            <p>Oferecemos pacotes acessíveis para todos os tipos de clientes.</p>
+        </div>
+        <div id="servicos" class="tab">
+            <h2>Serviços</h2>
+            <p>Trabalhamos com design, desenvolvimento e marketing digital.</p>
+        </div>
+        <div id="contacto" class="tab">
+            <h2>Contacto</h2>
+            <p>Entre em contato conosco através do email: contato@jorge.com</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
